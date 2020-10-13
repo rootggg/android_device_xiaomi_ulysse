@@ -45,12 +45,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-gf.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-gf.kl
 
 # Properties
--include device/xiaomi/ulysse/prop.mk
+-include device/xiaomi/ugg/prop.mk
 
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.goodix.sh \
-    init.ulysse.rc
+    init.ugg.rc
 
 PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh
